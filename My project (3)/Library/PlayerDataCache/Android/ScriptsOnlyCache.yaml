@@ -2,6 +2,11 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - Controlador
+    - Esutdio_Controller
+    - Menu
+    Unity.ProBuilder.Editor.dll:
+    - UnityEditor.ProBuilder.PolyShapeTool
+    - UnityEditor.ProBuilder.ProBuilderEditor
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -19,9 +24,12 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.EventSystems.PhysicsRaycaster
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
+    - UnityEngine.UI.VerticalLayoutGroup
     Vuforia.Unity.Engine.dll:
     - Vuforia.ImageTargetBehaviour
     - Vuforia.ImageTargetPreview
@@ -51,6 +59,7 @@ ScriptsOnlyBuild:
     - UnityEngine.Events.PersistentCallGroup
     - UnityEngine.Events.PersistentListenerMode
     - UnityEngine.Events.UnityEvent
+    - UnityEngine.RectOffset
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
@@ -59,7 +68,12 @@ ScriptsOnlyBuild:
     UnityEngine.UI:
     - UnityEngine.EventSystems.EventTrigger/Entry
     - UnityEngine.EventSystems.EventTrigger/TriggerEvent
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.SpriteState
     Vuforia.Unity.Engine:
     - Vuforia.VuforiaConfiguration/DatabaseConfiguration
     - Vuforia.VuforiaConfiguration/DeviceTrackerConfiguration
@@ -71,17 +85,11 @@ ScriptsOnlyBuild:
     - Vuforia.VuforiaConfiguration/WebCamConfiguration
   methodsToPreserve:
   - assembly: Assembly-CSharp
-    fullTypeName: Controlador
-    methodName: selectedCube
+    fullTypeName: Menu
+    methodName: gotoscene
   - assembly: Assembly-CSharp
-    fullTypeName: Controlador
-    methodName: correctclick
-  - assembly: Assembly-CSharp
-    fullTypeName: Controlador
-    methodName: selectedCube
-  - assembly: Assembly-CSharp
-    fullTypeName: Controlador
-    methodName: correctclick
+    fullTypeName: Menu
+    methodName: gotoscene
   - assembly: Assembly-CSharp
     fullTypeName: Controlador
     methodName: selectedCube
@@ -100,8 +108,110 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Controlador
     methodName: correctclick
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: atrasMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: selectedCube
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: correctclick
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: selectedCube
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: correctclick
+  - assembly: Assembly-CSharp
+    fullTypeName: Esutdio_Controller
+    methodName: setIndex
+  - assembly: Assembly-CSharp
+    fullTypeName: Esutdio_Controller
+    methodName: setIndex
+  - assembly: Assembly-CSharp
+    fullTypeName: Esutdio_Controller
+    methodName: atrasMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: Esutdio_Controller
+    methodName: setIndex
+  - assembly: Assembly-CSharp
+    fullTypeName: Esutdio_Controller
+    methodName: setIndex
+  - assembly: Assembly-CSharp
+    fullTypeName: Esutdio_Controller
+    methodName: atrasVista
+  - assembly: Assembly-CSharp
+    fullTypeName: Esutdio_Controller
+    methodName: setIndex
+  - assembly: Assembly-CSharp
+    fullTypeName: Esutdio_Controller
+    methodName: setIndex
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/Menu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16420}
+    - Class: 114
+      Script: {instanceID: 16988}
+    - Class: 114
+      Script: {instanceID: 17396}
+    - Class: 114
+      Script: {instanceID: 17598}
+    - Class: 114
+      Script: {instanceID: 17742}
+    - Class: 114
+      Script: {instanceID: 18014}
+    - Class: 114
+      Script: {instanceID: 18168}
+    - Class: 114
+      Script: {instanceID: 18996}
+    - Class: 114
+      Script: {instanceID: 19386}
+    - Class: 114
+      Script: {instanceID: 20064}
+    - Class: 114
+      Script: {instanceID: 20604}
+    - Class: 114
+      Script: {instanceID: 21112}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/estudio.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -120,7 +230,84 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 49
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16420}
+    - Class: 114
+      Script: {instanceID: 17396}
+    - Class: 114
+      Script: {instanceID: 17436}
+    - Class: 114
+      Script: {instanceID: 17516}
+    - Class: 114
+      Script: {instanceID: 17518}
+    - Class: 114
+      Script: {instanceID: 17596}
+    - Class: 114
+      Script: {instanceID: 17742}
+    - Class: 114
+      Script: {instanceID: 18014}
+    - Class: 114
+      Script: {instanceID: 19954}
+    - Class: 114
+      Script: {instanceID: 20000}
+    - Class: 114
+      Script: {instanceID: 20064}
+    - Class: 114
+      Script: {instanceID: 20476}
+    - Class: 114
+      Script: {instanceID: 20604}
+    - Class: 114
+      Script: {instanceID: 20802}
+    - Class: 114
+      Script: {instanceID: 21112}
+    - Class: 114
+      Script: {instanceID: 21512}
+    - Class: 114
+      Script: {instanceID: 21954}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/memorama.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
@@ -135,43 +322,37 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1654}
+      Script: {instanceID: 16420}
     - Class: 114
-      Script: {instanceID: 1700}
+      Script: {instanceID: 17396}
     - Class: 114
-      Script: {instanceID: 2318}
+      Script: {instanceID: 17436}
     - Class: 114
-      Script: {instanceID: 2754}
+      Script: {instanceID: 17516}
     - Class: 114
-      Script: {instanceID: 2800}
+      Script: {instanceID: 17518}
     - Class: 114
-      Script: {instanceID: 2888}
+      Script: {instanceID: 17596}
     - Class: 114
-      Script: {instanceID: 2890}
+      Script: {instanceID: 17742}
     - Class: 114
-      Script: {instanceID: 2968}
+      Script: {instanceID: 18014}
     - Class: 114
-      Script: {instanceID: 2970}
+      Script: {instanceID: 18936}
     - Class: 114
-      Script: {instanceID: 4434}
+      Script: {instanceID: 19954}
     - Class: 114
-      Script: {instanceID: 4496}
+      Script: {instanceID: 20064}
     - Class: 114
-      Script: {instanceID: 4916}
+      Script: {instanceID: 20604}
     - Class: 114
-      Script: {instanceID: 5554}
+      Script: {instanceID: 20802}
     - Class: 114
-      Script: {instanceID: 5686}
+      Script: {instanceID: 21112}
     - Class: 114
-      Script: {instanceID: 6302}
+      Script: {instanceID: 21954}
     - Class: 114
-      Script: {instanceID: 6514}
-    - Class: 114
-      Script: {instanceID: 6858}
-    - Class: 114
-      Script: {instanceID: 7776}
-    - Class: 114
-      Script: {instanceID: 8702}
+      Script: {instanceID: 22812}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -189,18 +370,6 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
-  - hash:
-      serializedVersion: 2
-      Hash: 11ad40c30f85fd15ef55a4ef590e6cb3
-    assemblyName: Vuforia.Unity.Engine.dll
-    namespaceName: Vuforia
-    className: AnchorBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: ae83e830e7a90c0aff918c4c2e520825
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: GraphicRaycaster
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -737,6 +906,12 @@ ScriptsOnlyBuild:
     className: TestRunCallbackListener
   - hash:
       serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
       Hash: f40fedccd4adbc76605bea6d67537e4b
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -813,6 +988,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnScrollMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Menu
   - hash:
       serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
@@ -957,6 +1138,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnJointBreak2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 11ad40c30f85fd15ef55a4ef590e6cb3
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AnchorBehaviour
   - hash:
       serializedVersion: 2
       Hash: 72095f3bdca6a5ced808052624115e3b
@@ -1485,6 +1672,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.State.dll
     namespaceName: Unity.VisualScripting
     className: StateGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 63d37918c0b3910d1c0dfca32d8833af
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Esutdio_Controller
   - hash:
       serializedVersion: 2
       Hash: a1aa98c78061c6f03a8c124cda576e67
@@ -2511,7 +2704,63 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e9389e944eb81a3a9df56fcdb09ce6a9
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: ColliderBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 9c7c87712e298256d276eb96e02a57b1
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: PreferenceDictionary
+  - hash:
+      serializedVersion: 2
+      Hash: c8783a6dcf5932c980693a657471cb72
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder.Shapes
+    className: ProBuilderShape
+  - hash:
+      serializedVersion: 2
+      Hash: d6a8e9bec3160a152b9b2710593d3caa
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: ColorPalette
+  - hash:
+      serializedVersion: 2
+      Hash: 301f4da7cc3b301c161d089f9d22efed
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: Entity
+  - hash:
+      serializedVersion: 2
+      Hash: f6633ace6e530c0000f2ac6da4269c52
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: PolyShape
+  - hash:
+      serializedVersion: 2
+      Hash: 32f6d1d5a09e5c94c633a32edd3e6836
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: BezierShape
+  - hash:
+      serializedVersion: 2
+      Hash: f8f7dc6c82dff1d866dc294799714ddd
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: ProBuilderMesh
+  - hash:
+      serializedVersion: 2
+      Hash: e9389e944eb81a3a9df56fcdb09ce6a9
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: TriggerBehaviour
   platform: 13
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
+  - Assets/Scenes/Menu.unity
+  - Assets/Scenes/memorama.unity
+  - Assets/Scenes/estudio.unity
   playerPath: C:/Users/DED-alienware/Documents/Enero23/frontera/app propuesta.apk

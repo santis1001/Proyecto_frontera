@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -9,12 +10,15 @@ public class Esutdio_Controller : MonoBehaviour
     public GameObject Vista;
 
     public GameObject[] obj;
+    public GameObject[] images;
+    public TMP_Text titulo;
     public int index = 0;
     void Start()
     {
         for(int i =0;i<obj.Length;i++)
         {
             obj[i].SetActive(false);
+            images[i].SetActive(false);
         }
     }
 
@@ -28,6 +32,9 @@ public class Esutdio_Controller : MonoBehaviour
         obj[index].SetActive(true);
         Vista.SetActive(true);
         Menu.SetActive(false);
+        images[index].SetActive(true);
+
+        titulo.text = images[index].name;
     }
     public void atrasVista(){
         Vista.SetActive(false);
@@ -36,7 +43,7 @@ public class Esutdio_Controller : MonoBehaviour
         for(int i =0;i<obj.Length;i++)
         {
             obj[i].SetActive(false);
-            Debug.Log(obj[i].name);
+            images[i].SetActive(false);
         }
     }
     public void atrasMenu(){
