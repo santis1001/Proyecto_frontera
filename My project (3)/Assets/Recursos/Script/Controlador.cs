@@ -5,6 +5,8 @@ using UnityEngine;
 using UnityEngine.Assertions.Must;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
+
 public class Controlador : MonoBehaviour
 {
 
@@ -157,6 +159,8 @@ public class Controlador : MonoBehaviour
 
     }
     
-
+    public void atrasMenu(){
+        SceneManager.LoadScene(0,LoadSceneMode.Single);
+    }
 }
 
