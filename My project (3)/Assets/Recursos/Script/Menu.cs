@@ -20,4 +20,8 @@ public class Menu : MonoBehaviour
     public void gotoscene(int idx){
         SceneManager.LoadScene(idx,LoadSceneMode.Single);
     }
+    public void salir()
+    {
+        Application.Quit();
+    }
 }

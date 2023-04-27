@@ -1,44 +1,29 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Documents\\ProyectoFrontera_Memorama\\Proyecto_frontera\\My project (3)\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\DED-alienware\\Documents\\GitHub\\Proyecto_frontera\\My project (3)\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "F:\\Documents\\ProyectoFrontera_Memorama\\Proyecto_frontera\\My project (3)\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\DED-alienware\\Documents\\GitHub\\Proyecto_frontera\\My project (3)\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "2,2",
-                        "startOffsets": "55,106",
-                        "endColumns": "49,65",
-                        "endOffsets": "102,169"
+                        "startLines": "5,2,7",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "190,53,288",
+                        "endLines": "6,4,10",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "286,188,513"
                     },
                     "to": {
-                        "startLines": "13,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "802,854",
-                        "endColumns": "51,67",
-                        "endOffsets": "849,917"
+                        "startLines": "16,18,21",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1002,1102,1240",
+                        "endLines": "17,20,24",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "1097,1235,1462"
                     }
                 },
                 {
-                    "source": "C:\\Users\\santi\\.gradle\\caches\\transforms-2\\files-2.1\\16e84a82246e39f10f24b4734dc13f8e\\core-1.22.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "161,208,259,381,503",
-                        "endColumns": "46,50,121,121,83",
-                        "endOffsets": "207,258,380,502,586"
-                    },
-                    "to": {
-                        "startLines": "8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "356,407,462,588,714",
-                        "endColumns": "50,54,125,125,87",
-                        "endOffsets": "402,457,583,709,797"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\santi\\.gradle\\caches\\transforms-2\\files-2.1\\3cc3b247cdae5b3cdac16bbbadb04a5c\\VuforiaEngine\\res\\values\\values.xml",
+                    "source": "C:\\Users\\DED-alienware\\.gradle\\caches\\transforms-2\\files-2.1\\3cc3b247cdae5b3cdac16bbbadb04a5c\\VuforiaEngine\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -55,7 +40,24 @@
                     }
                 },
                 {
-                    "source": "F:\\Documents\\ProyectoFrontera_Memorama\\Proyecto_frontera\\My project (3)\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
+                    "source": "C:\\Users\\DED-alienware\\Documents\\GitHub\\Proyecto_frontera\\My project (3)\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "2,2",
+                        "startOffsets": "55,106",
+                        "endColumns": "49,65",
+                        "endOffsets": "102,169"
+                    },
+                    "to": {
+                        "startLines": "13,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "802,854",
+                        "endColumns": "51,67",
+                        "endOffsets": "849,917"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\DED-alienware\\Documents\\GitHub\\Proyecto_frontera\\My project (3)\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
@@ -65,22 +67,20 @@
                     }
                 },
                 {
-                    "source": "F:\\Documents\\ProyectoFrontera_Memorama\\Proyecto_frontera\\My project (3)\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\DED-alienware\\.gradle\\caches\\transforms-2\\files-2.1\\16e84a82246e39f10f24b4734dc13f8e\\core-1.22.0\\res\\values\\values.xml",
                     "from": {
-                        "startLines": "5,2,7",
-                        "startColumns": "0,0,0",
-                        "startOffsets": "190,53,288",
-                        "endLines": "6,4,10",
-                        "endColumns": "8,8,8",
-                        "endOffsets": "286,188,513"
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "161,208,259,381,503",
+                        "endColumns": "46,50,121,121,83",
+                        "endOffsets": "207,258,380,502,586"
                     },
                     "to": {
-                        "startLines": "16,18,21",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "1002,1102,1240",
-                        "endLines": "17,20,24",
-                        "endColumns": "8,8,8",
-                        "endOffsets": "1097,1235,1462"
+                        "startLines": "8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "356,407,462,588,714",
+                        "endColumns": "50,54,125,125,87",
+                        "endOffsets": "402,457,583,709,797"
                     }
                 }
             ]
