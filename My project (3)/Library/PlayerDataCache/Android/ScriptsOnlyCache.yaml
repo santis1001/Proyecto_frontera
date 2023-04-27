@@ -12,14 +12,13 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
-    Unity.Timeline.Editor.dll:
-    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.EventSystems.PhysicsRaycaster
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
@@ -64,6 +63,8 @@ ScriptsOnlyBuild:
     - UnityEngine.TextCore.GlyphMetrics
     - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
+    - UnityEngine.EventSystems.EventTrigger/Entry
+    - UnityEngine.EventSystems.EventTrigger/TriggerEvent
     - UnityEngine.UI.AnimationTriggers
     - UnityEngine.UI.Button/ButtonClickedEvent
     - UnityEngine.UI.ColorBlock
@@ -88,7 +89,97 @@ ScriptsOnlyBuild:
     methodName: gotoscene
   - assembly: Assembly-CSharp
     fullTypeName: Controlador
+    methodName: selectedCube
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: correctclick
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: selectedCube
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: correctclick
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: selectedCube
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: correctclick
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: selectedCube
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: correctclick
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: selectedCube
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: correctclick
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: selectedCube
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: correctclick
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
     methodName: atrasMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: selectedCube
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: correctclick
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: selectedCube
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: correctclick
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: selectedCube
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: correctclick
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: selectedCube
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: correctclick
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: selectedCube
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: correctclick
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: selectedCube
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: correctclick
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: selectedCube
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: correctclick
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: selectedCube
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: correctclick
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: selectedCube
+  - assembly: Assembly-CSharp
+    fullTypeName: Controlador
+    methodName: correctclick
   - assembly: Assembly-CSharp
     fullTypeName: Esutdio_Controller
     methodName: setIndex
@@ -167,27 +258,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1690}
     - Class: 114
-      Script: {instanceID: 1738}
+      Script: {instanceID: 1762}
     - Class: 114
-      Script: {instanceID: 2362}
+      Script: {instanceID: 2386}
     - Class: 114
-      Script: {instanceID: 2798}
+      Script: {instanceID: 2822}
     - Class: 114
-      Script: {instanceID: 3006}
+      Script: {instanceID: 3030}
     - Class: 114
-      Script: {instanceID: 3166}
+      Script: {instanceID: 3190}
     - Class: 114
-      Script: {instanceID: 3470}
+      Script: {instanceID: 3494}
     - Class: 114
-      Script: {instanceID: 3644}
+      Script: {instanceID: 3668}
     - Class: 114
-      Script: {instanceID: 4550}
+      Script: {instanceID: 4574}
     - Class: 114
-      Script: {instanceID: 4966}
+      Script: {instanceID: 4990}
     - Class: 114
-      Script: {instanceID: 5738}
+      Script: {instanceID: 5762}
     - Class: 114
-      Script: {instanceID: 6912}
+      Script: {instanceID: 6936}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -236,35 +327,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1690}
     - Class: 114
-      Script: {instanceID: 1738}
+      Script: {instanceID: 1762}
     - Class: 114
-      Script: {instanceID: 2798}
+      Script: {instanceID: 2822}
     - Class: 114
-      Script: {instanceID: 2840}
+      Script: {instanceID: 2864}
     - Class: 114
-      Script: {instanceID: 2924}
+      Script: {instanceID: 2948}
     - Class: 114
-      Script: {instanceID: 2926}
+      Script: {instanceID: 2950}
     - Class: 114
-      Script: {instanceID: 3004}
+      Script: {instanceID: 3028}
     - Class: 114
-      Script: {instanceID: 3166}
+      Script: {instanceID: 3190}
     - Class: 114
-      Script: {instanceID: 3470}
+      Script: {instanceID: 3494}
     - Class: 114
-      Script: {instanceID: 5622}
+      Script: {instanceID: 5646}
     - Class: 114
-      Script: {instanceID: 5674}
+      Script: {instanceID: 5698}
     - Class: 114
-      Script: {instanceID: 5738}
+      Script: {instanceID: 5762}
     - Class: 114
-      Script: {instanceID: 6194}
+      Script: {instanceID: 6218}
     - Class: 114
-      Script: {instanceID: 6556}
+      Script: {instanceID: 6580}
     - Class: 114
-      Script: {instanceID: 6912}
+      Script: {instanceID: 6936}
     - Class: 114
-      Script: {instanceID: 7386}
+      Script: {instanceID: 7410}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -302,6 +393,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
@@ -313,33 +406,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1690}
     - Class: 114
-      Script: {instanceID: 1738}
+      Script: {instanceID: 1762}
     - Class: 114
-      Script: {instanceID: 2798}
+      Script: {instanceID: 2822}
     - Class: 114
-      Script: {instanceID: 2840}
+      Script: {instanceID: 2864}
     - Class: 114
-      Script: {instanceID: 2924}
+      Script: {instanceID: 2948}
     - Class: 114
-      Script: {instanceID: 2926}
+      Script: {instanceID: 2950}
     - Class: 114
-      Script: {instanceID: 3004}
+      Script: {instanceID: 3028}
     - Class: 114
-      Script: {instanceID: 3166}
+      Script: {instanceID: 3190}
     - Class: 114
-      Script: {instanceID: 3470}
+      Script: {instanceID: 3494}
     - Class: 114
-      Script: {instanceID: 4482}
+      Script: {instanceID: 4506}
     - Class: 114
-      Script: {instanceID: 5622}
+      Script: {instanceID: 5646}
     - Class: 114
-      Script: {instanceID: 5738}
+      Script: {instanceID: 5762}
     - Class: 114
-      Script: {instanceID: 6556}
+      Script: {instanceID: 6580}
     - Class: 114
-      Script: {instanceID: 6912}
+      Script: {instanceID: 6936}
     - Class: 114
-      Script: {instanceID: 8842}
+      Script: {instanceID: 7884}
+    - Class: 114
+      Script: {instanceID: 8866}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128

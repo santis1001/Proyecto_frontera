@@ -6,7 +6,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638181503357297414
+      ticks: 638181616640978896
     m_Hash: 2681587146
   m_LockFileStatus:
     m_FilePath: F:/Documents/ProyectoFrontera_Memorama/Proyecto_frontera/My project
@@ -15,7 +15,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638181503357307425
+      ticks: 638181616640988697
     m_Hash: 2116610806
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -1175,6 +1175,7 @@ m_ResolvedPackages:
   versions:
     all:
     - 1.0.0
+    - 3.0.0-exp.1
     compatible:
     - 1.0.0
     verified: 1.0.0
