@@ -7,6 +7,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 
+
 public class Controlador : MonoBehaviour
 {
 
@@ -21,6 +22,7 @@ public class Controlador : MonoBehaviour
 
     int img = 0;
     void Start()
+    
     {
 
         for (int i = 0; i < cubes.Length; i++)
@@ -153,9 +155,9 @@ public class Controlador : MonoBehaviour
         }
 
         Porcentaje = ((float)Aciertos / (float)Intentos * 100f);
-
+        float roundedPorcentaje = Mathf.RoundToInt(Porcentaje*10f)/10f;
         //Debug.Log(Aciertos + "/" +Intentos+"*100="+Porcentaje);
-        val_porcentaje.text = "Porcentaje: " + Porcentaje + "%";
+        val_porcentaje.text = "Porcentaje: " + roundedPorcentaje + "%";
 
     }
     

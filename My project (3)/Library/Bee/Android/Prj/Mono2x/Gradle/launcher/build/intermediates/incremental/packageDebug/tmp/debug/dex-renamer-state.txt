@@ -1,10 +1,10 @@
-#Thu Apr 27 13:24:06 CDT 2023
+#Thu Apr 27 18:09:47 CDT 2023
 path.2=classes_0.dex
 path.1=classes.dex
 path.0=classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.2=C\:\\Users\\DED-alienware\\Documents\\GitHub\\Proyecto_frontera\\My project (3)\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\classes_0.dex
-base.1=C\:\\Users\\DED-alienware\\Documents\\GitHub\\Proyecto_frontera\\My project (3)\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
-base.0=C\:\\Users\\DED-alienware\\Documents\\GitHub\\Proyecto_frontera\\My project (3)\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.2=F\:\\Documents\\ProyectoFrontera_Memorama\\Proyecto_frontera\\My project (3)\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\classes_0.dex
+base.1=F\:\\Documents\\ProyectoFrontera_Memorama\\Proyecto_frontera\\My project (3)\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+base.0=F\:\\Documents\\ProyectoFrontera_Memorama\\Proyecto_frontera\\My project (3)\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\DED-alienware\\Documents\\GitHub\\Proyecto_frontera\\My project (3)\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ar-rSA\\values-ar-rSA.xml",
+            "outputFile": "F:\\Documents\\ProyectoFrontera_Memorama\\Proyecto_frontera\\My project (3)\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ar-rSA\\values-ar-rSA.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DED-alienware\\.gradle\\caches\\transforms-2\\files-2.1\\16e84a82246e39f10f24b4734dc13f8e\\core-1.22.0\\res\\values-ar-rSA\\values.xml",
+                    "source": "C:\\Users\\santi\\.gradle\\caches\\transforms-2\\files-2.1\\16e84a82246e39f10f24b4734dc13f8e\\core-1.22.0\\res\\values-ar-rSA\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8",
                         "startColumns": "0,0,0,0,0",
