@@ -224,7 +224,7 @@ public class Controlador : MonoBehaviour
         val_porcentaje.text = "Porcentaje: " + roundedPorcentaje + "%";
         fin_porcentaje.text = roundedPorcentaje +"%";
 
-        fin_aciertos.text = Aciertos + "";
+        fin_aciertos.text = Aciertos + "/" + Intentos;
         if (index == images.Length)
         {
             Terminar();
