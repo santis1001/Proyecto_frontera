@@ -6,7 +6,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638181616640978896
+      ticks: 638182559712296111
     m_Hash: 2681587146
   m_LockFileStatus:
     m_FilePath: F:/Documents/ProyectoFrontera_Memorama/Proyecto_frontera/My project
@@ -15,7 +15,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638182272564885226
+      ticks: 638182559712306120
     m_Hash: 3105290435
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -1094,6 +1094,7 @@ m_ResolvedPackages:
     - 1.6.2
     - 1.6.3
     - 1.6.4
+    - 1.6.5
     - 1.7.0-pre.1
     - 1.7.0-pre.2
     - 1.7.0
@@ -1106,6 +1107,7 @@ m_ResolvedPackages:
     - 1.8.2
     compatible:
     - 1.6.4
+    - 1.6.5
     - 1.7.0-pre.1
     - 1.7.0-pre.2
     - 1.7.0
@@ -1116,7 +1118,7 @@ m_ResolvedPackages:
     - 1.8.0
     - 1.8.1
     - 1.8.2
-    verified: 1.6.4
+    verified: 1.6.5
   dependencies:
   - name: com.unity.modules.director
     version: 1.0.0

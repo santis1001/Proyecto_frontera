@@ -21,7 +21,62 @@ public class Controlador : MonoBehaviour
     float minY = -4.5f;
 
     int img = 0;
-    void Start()
+  void ShuffleList(List<int> list)
+    {
+        for (int i = 0; i < list.Count; i++)
+        {
+            int randomIndex = Random.Range(i, list.Count);
+            int temp = list[randomIndex];
+            list[randomIndex] = list[i];
+            list[i] = temp;
+        }
+    }
+
+  void Start()
+    
+    {
+
+        List<int> numbers = new List<int>();
+        for (int i = 0; i < 15; i++)
+        {
+            numbers.Add(i);
+        }
+        ShuffleList(numbers);
+        Debug.Log(string.Join(", ", numbers));
+
+        
+
+        float grid = 2.25f;
+        float adj = 4.5f;
+        int indx = 0;
+        for(int yval =1;yval<5;yval++)
+        {
+            for(int xval =1;xval<5;xval++){
+
+                if(xval == 4 && yval==4){
+
+                }else{
+
+                float xvalue =((float)xval*grid)-adj;
+                float yvalue = ((float)yval*grid)-adj;
+
+                cubes[numbers[indx]].transform.localPosition = new Vector3(xvalue, cubes[numbers[indx]].transform.localPosition.y, yvalue);
+                indx++;
+                }
+
+            }
+        }
+
+        for (int i = 0; i < images.Length; i++)
+        {
+            images[i].SetActive(false);
+        }
+
+        img = Random.Range(0, images.Length);
+        images[img].SetActive(true);
+    }
+
+  /*  void Start()
     
     {
 
@@ -75,7 +130,7 @@ public class Controlador : MonoBehaviour
         images[img].SetActive(true);
 
     }
-
+*/
     GameObject SelectedCube = null;
     int Intentos = 0;
     int Aciertos = 0;
@@ -99,43 +154,6 @@ public class Controlador : MonoBehaviour
 
             val_aciertos.text = "Aciertos: " + Aciertos;
 
-
-            float newdist_ref;
-
-            float xvalue;
-            float yvalue;
-
-            bool exit_do = true;
-
-            do
-            {
-                xvalue = Random.Range(minX, maxX);
-                yvalue = Random.Range(minY, maxY);
-
-                int Error_finder = 0;
-
-                for (int e = 0; e < cubes.Length; e++)
-                {
-                    newdist_ref = Vector2.Distance(new Vector2(xvalue, yvalue), new Vector2(cubes[e].transform.localPosition.x, cubes[e].transform.localPosition.z));
-
-
-                    if (newdist_ref < 1.25)
-                    {
-                        //Debug.Log(newdist_ref);
-                        Error_finder++;
-                    }
-
-                }
-                if (Error_finder == 0)
-                {
-                    exit_do = false;
-                }
-                //Debug.Log("todo bien?");
-
-            } while (exit_do);
-
-
-            SelectedCube.transform.localPosition = new Vector3(xvalue, SelectedCube.transform.localPosition.y, yvalue);
 
             //Debug.Log(correctIMG.name+": "+xvalue + " , " + yvalue);
 
