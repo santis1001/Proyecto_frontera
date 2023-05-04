@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="LogoMatematicas" size="1.000000 1.168000" />
+    <ImageTarget name="LogoLIRM_Solo" size="1.000000 0.365680" />
+    <ImageTarget name="TangramAR" size="1.000000 1.000000" />
+    <ImageTarget name="TangramAR8" size="1.000000 1.412414" />
+    <ImageTarget name="StandingFox" size="1.000000 0.941406" />
+    <ImageTarget name="TangramAR4" size="1.000000 0.618207" />
+    <ImageTarget name="TangramAR5" size="1.000000 1.076716" />
+    <ImageTarget name="TangramAR2" size="1.000000 0.912925" />
+  </Tracking>
+</QCARConfig>

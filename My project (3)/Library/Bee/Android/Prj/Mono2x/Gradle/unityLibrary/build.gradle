@@ -1,16 +1,7 @@
-allprojects {
-    buildscript {
-        repositories {
-            google()
-        }
-    }
-}
-
 apply plugin: 'com.android.library'
 
 
 dependencies {
-    implementation 'com.google.ar:core:1.22.0'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation(name: 'VuforiaEngine', ext:'aar')
 

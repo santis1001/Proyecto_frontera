@@ -75,9 +75,6 @@
         <meta-data
             android:name="notch.config"
             android:value="portrait|landscape" />
-        <meta-data
-            android:name="com.google.ar.core"
-            android:value="optional" />
     </application>
 
 </manifest>
