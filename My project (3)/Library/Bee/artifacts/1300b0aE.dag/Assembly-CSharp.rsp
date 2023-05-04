@@ -116,6 +116,7 @@
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:VUFORIA_ANDROID_SETTINGS
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"F:/Documents/ProyectoFrontera_Memorama/Proyecto_frontera/My project (3)/Library/PackageCache/com.ptc.vuforia.engine@64a4bf61052d/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Engine.dll"
@@ -325,6 +326,12 @@
 -r:"G:/Program Files/2021.3.16f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"G:/Program Files/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
 -r:"G:/Program Files/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/CommonEditor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/CommonScripts.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/CW.Common.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/LeanCommon.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/LeanTouch.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/SamplesScripts.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -352,11 +359,38 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/VFXCore.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/VuforiaEditorScripts.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/VuforiaScripts.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/VuforiaVersionCheckerScripts.ref.dll"
 "Assets/Recursos/Script/Controlador.cs"
 "Assets/Recursos/Script/Esutdio_Controller.cs"
 "Assets/Recursos/Script/Menu.cs"
+"Assets/SamplesResources/AugmentationAssets/Scripts/AreaTarget/GaugeValueDisplay.cs"
+"Assets/SamplesResources/AugmentationAssets/Scripts/AreaTarget/ImageValueDisplay.cs"
+"Assets/SamplesResources/AugmentationAssets/Scripts/AreaTarget/LineRendererPatternShifter.cs"
+"Assets/SamplesResources/AugmentationAssets/Scripts/AreaTarget/ModularBillBoard.cs"
+"Assets/SamplesResources/AugmentationAssets/Scripts/AreaTarget/NavMeshManager.cs"
+"Assets/SamplesResources/AugmentationAssets/Scripts/AreaTarget/TextValueDisplay.cs"
+"Assets/SamplesResources/AugmentationAssets/Scripts/Augmentations/Astronaut.cs"
+"Assets/SamplesResources/AugmentationAssets/Scripts/Augmentations/Augmentation.cs"
+"Assets/SamplesResources/AugmentationAssets/Scripts/Augmentations/Drone.cs"
+"Assets/SamplesResources/AugmentationAssets/Scripts/Augmentations/Fissure.cs"
+"Assets/SamplesResources/AugmentationAssets/Scripts/Augmentations/OxygenTank.cs"
+"Assets/SamplesResources/AugmentationAssets/Scripts/Augmentations/RockPileController.cs"
+"Assets/SamplesResources/AugmentationAssets/Scripts/InteractionHelpers/DrillController.cs"
+"Assets/SamplesResources/AugmentationAssets/Scripts/InteractionHelpers/FadeObject.cs"
+"Assets/SamplesResources/AugmentationAssets/Scripts/StateMachineBehaviours/AstronautStateMachineBehaviour.cs"
+"Assets/SamplesResources/AugmentationAssets/Scripts/StateMachineBehaviours/AugmentationStateMachineBehaviour.cs"
+"Assets/Scripts/DisableDropCondition.cs"
+"Assets/Scripts/DraggableComponent.cs"
+"Assets/Scripts/DropArea.cs"
+"Assets/Scripts/DropCondition.cs"
+"Assets/Scripts/EquipmentSlot.cs"
+"Assets/Scripts/SceneSwitcher.cs"
+"Assets/Scripts/SnapController.cs"
+"Assets/Scripts/SnapToTarget.cs"
+"Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 
 /deterministic

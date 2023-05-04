@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/estudio.unity
     guid: c0d6ab7535c36984c8743781cc5d4c49
+  - enabled: 1
+    path: Assets/Scenes/MenuTangram.unity
+    guid: 00b71034efc2ca94791159fe2b23a194
+  - enabled: 1
+    path: Assets/Scenes/MainTangram.unity
+    guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects: {}

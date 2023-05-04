@@ -15,7 +15,7 @@ F:/Documents/ProyectoFrontera_Memorama/Proyecto_frontera/My project (3)
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52689
+54300
 Successfully changed project path to: F:/Documents/ProyectoFrontera_Memorama/Proyecto_frontera/My project (3)
 F:/Documents/ProyectoFrontera_Memorama/Proyecto_frontera/My project (3)
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ F:/Documents/ProyectoFrontera_Memorama/Proyecto_frontera/My project (3)
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [29776] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3353697542 [EditorId] 3353697542 [Version] 1048832 [Id] WindowsEditor(7,XuF0-64t) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [36176] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2483827679 [EditorId] 2483827679 [Version] 1048832 [Id] WindowsEditor(7,XuF0-64t) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [29776] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3353697542 [EditorId] 3353697542 [Version] 1048832 [Id] WindowsEditor(7,XuF0-64t) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [36176] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2483827679 [EditorId] 2483827679 [Version] 1048832 [Id] WindowsEditor(7,XuF0-64t) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 81.42 ms, found 6 plugins.
-Preloading 2 native plugins for Editor in 2.58 ms.
+Refreshing native plugins compatible for Editor in 91.81 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 2.77 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path G:/Program Files/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path F:/Documents/ProyectoFrontera_Memorama/Proyecto_frontera/My project (3)/Assets
@@ -67,78 +67,78 @@ Initialize mono
 Mono path[0] = 'G:/Program Files/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'G:/Program Files/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'G:/Program Files/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: G:/Program Files/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: G:/Program Files/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002414 seconds.
+Registered in 0.002894 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 72.03 ms, found 6 plugins.
-Preloading 2 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 81.54 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.508 seconds
+- Completed reload, in  0.530 seconds
 Domain Reload Profiling:
-	ReloadAssembly (508ms)
-		BeginReloadAssembly (66ms)
+	ReloadAssembly (531ms)
+		BeginReloadAssembly (74ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (364ms)
-			LoadAssemblies (66ms)
+		EndReloadAssembly (379ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (76ms)
+			SetupTypeCache (78ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (230ms)
+			SetupLoadedEditorAssemblies (242ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (44ms)
+				InitializePlatformSupportModulesInManaged (43ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (72ms)
+				RefreshPlugins (82ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (78ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008840 seconds.
+Registered in 0.009387 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image F:\Documents\ProyectoFrontera_Memorama\Proyecto_frontera\My project (3)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image F:\Documents\ProyectoFrontera_Memorama\Proyecto_frontera\My project (3)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 0.90 ms, found 6 plugins.
 Preloading 2 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.915 seconds
+- Completed reload, in  0.937 seconds
 Domain Reload Profiling:
-	ReloadAssembly (915ms)
-		BeginReloadAssembly (209ms)
+	ReloadAssembly (938ms)
+		BeginReloadAssembly (210ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (122ms)
-		EndReloadAssembly (618ms)
-			LoadAssemblies (88ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (645ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (198ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (282ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (303ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (185ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -147,12 +147,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.90 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 1.00 ms, found 6 plugins.
 Preloading 2 native plugins for Editor in 0.06 ms.
-Unloading 3503 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (169.2 KB). Loaded Objects now: 4263.
-Memory consumption went from 134.8 MB to 134.6 MB.
-Total: 2.666600 ms (FindLiveObjects: 0.223900 ms CreateObjectMapping: 0.085200 ms MarkObjects: 2.234800 ms  DeleteObjects: 0.122100 ms)
+Unloading 3679 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (276.5 KB). Loaded Objects now: 4437.
+Memory consumption went from 143.2 MB to 142.9 MB.
+Total: 2.880500 ms (FindLiveObjects: 0.237400 ms CreateObjectMapping: 0.090500 ms MarkObjects: 2.368000 ms  DeleteObjects: 0.183900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,7 +167,283 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 268835.081640 seconds.
-  path: Assets/Scenes/estudio.unity
-  artifactKey: Guid(c0d6ab7535c36984c8743781cc5d4c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/estudio.unity using Guid(c0d6ab7535c36984c8743781cc5d4c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846825b8a1442f72aebba164b360d327') in 0.010029 seconds 
+  Time since last request: 306970.773554 seconds.
+  path: Assets/Scenes/MenuTangram.unity
+  artifactKey: Guid(00b71034efc2ca94791159fe2b23a194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuTangram.unity using Guid(00b71034efc2ca94791159fe2b23a194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420b1f6c4f97cb28088b1fbc5d811dab') in 0.010944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.960168 seconds.
+  path: Assets/Scenes/MainTangram.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainTangram.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974740eaf64d750deabb661de7255084') in 0.005970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.293855 seconds.
+  path: Assets/gato outline.obj
+  artifactKey: Guid(44b615f7783468044b4ac31e558c93b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gato outline.obj using Guid(44b615f7783468044b4ac31e558c93b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba5f0b97a64f75b442980248df7ec46') in 0.160048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac163ee4cb400cea1f604418885fade3') in 0.007280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595b59af74dba9086e8faf14badef471') in 0.014546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.066084 seconds.
+  path: Assets/HugoIbarra
+  artifactKey: Guid(fc1462317cb961843b95c8e2cebf3b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra using Guid(fc1462317cb961843b95c8e2cebf3b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025aea0b7fafa936d56181a2e133d49e') in 0.005008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.963083 seconds.
+  path: Assets/HugoIbarra/sprites
+  artifactKey: Guid(2f1f66c4ee4eeae44b060ea3211cefba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites using Guid(2f1f66c4ee4eeae44b060ea3211cefba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7eedfd4628d03018fb40e0007a27c0f') in 0.010271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059703 seconds.
+  path: Assets/HugoIbarra/sprites/casitaAzul.png
+  artifactKey: Guid(7649dbe0f73d14c5da22d26552adfcab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/casitaAzul.png using Guid(7649dbe0f73d14c5da22d26552adfcab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50e1f481ef263b9fcd627c5566f95dd') in 0.054519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HugoIbarra/sprites/marcoRosa.png
+  artifactKey: Guid(342c025433fd14d5aaf8f588b6b09164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/marcoRosa.png using Guid(342c025433fd14d5aaf8f588b6b09164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce084cba7d6d9638df14074f3c0bfdfa') in 0.100974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/HugoIbarra/sprites/FondoMascara.png
+  artifactKey: Guid(738e622fb43eb4dd3aa603b6425da167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/FondoMascara.png using Guid(738e622fb43eb4dd3aa603b6425da167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85920551b88cff42bbc7de405d58ad7e') in 0.109755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/HugoIbarra/sprites/full.png
+  artifactKey: Guid(67e3e2bc1706d4f169d351572b564421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/full.png using Guid(67e3e2bc1706d4f169d351572b564421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58a34c5098e014113e2dee3996cd29d') in 0.021996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HugoIbarra/sprites/marcoMorado_1.png
+  artifactKey: Guid(391a9ebdba28c45e8ad1931c2d7f9c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/marcoMorado_1.png using Guid(391a9ebdba28c45e8ad1931c2d7f9c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142b9111ca0e45d6914469c1a162430c') in 0.159757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/HugoIbarra/sprites/ESCALA DE pH.png
+  artifactKey: Guid(8e545b65146a70149af3ffbabe503781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/ESCALA DE pH.png using Guid(8e545b65146a70149af3ffbabe503781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9d2aa35714ae35a4381166d2b0b204') in 0.013226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/HugoIbarra/sprites/Recurso 12.png
+  artifactKey: Guid(2902695b9ba5046828d2ce7db1941055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/Recurso 12.png using Guid(2902695b9ba5046828d2ce7db1941055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f527c217d7b4f9711e748a16041406') in 0.029470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/HugoIbarra/sprites/Recurso 15.png
+  artifactKey: Guid(973530f05ddeb46e692fb2a920816a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/Recurso 15.png using Guid(973530f05ddeb46e692fb2a920816a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3852cac195d3bcb3daec5cad13db7f') in 0.008662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HugoIbarra/sprites/Recurso 5.png
+  artifactKey: Guid(0343df60508c24afd9693fb915e3db94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/Recurso 5.png using Guid(0343df60508c24afd9693fb915e3db94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c5b2c12ae2d8419fc2cbe088213f0c') in 0.017930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/HugoIbarra/sprites/flechaMorada.png
+  artifactKey: Guid(462e20250c4e04f9daa967340bf8fe7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/flechaMorada.png using Guid(462e20250c4e04f9daa967340bf8fe7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f87e771ca035fc423f411e4910bb09f') in 0.010425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/HugoIbarra/sprites/INPUTfield.png
+  artifactKey: Guid(2b9f06317d6df4a9cb55da7e1034ff10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/INPUTfield.png using Guid(2b9f06317d6df4a9cb55da7e1034ff10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40766e34477c107d10068252b840c362') in 0.012001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/HugoIbarra/sprites/list.png
+  artifactKey: Guid(235865a0c886a42cca6488f6aa575f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/list.png using Guid(235865a0c886a42cca6488f6aa575f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a6eff2f5638e20574c409ddf47fc8f') in 0.023722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/HugoIbarra/sprites/flechaAzul izq.png
+  artifactKey: Guid(ea15ca5d73f1f4d6796380ad7d1673be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/flechaAzul izq.png using Guid(ea15ca5d73f1f4d6796380ad7d1673be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5ed3b99ba51dd271dced498474ede2') in 0.009020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/HugoIbarra/sprites/zoom.png
+  artifactKey: Guid(d12ed7b422f9b4a63940f567b0f0b7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/zoom.png using Guid(d12ed7b422f9b4a63940f567b0f0b7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a68c4d623b1489745e436152a21daf') in 0.017688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/HugoIbarra/sprites/Recurso 8.png
+  artifactKey: Guid(ad819a84362a14ca2a535266dca70e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/Recurso 8.png using Guid(ad819a84362a14ca2a535266dca70e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347c9a50041d365115b92f1aee1de5ba') in 0.015310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/HugoIbarra/sprites/Recurso 10.png
+  artifactKey: Guid(b745ecc62395d4870a47c48d064fc386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/Recurso 10.png using Guid(b745ecc62395d4870a47c48d064fc386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb145e8b265083ab49b6243d78bc152') in 0.011521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/HugoIbarra/sprites/soloMorado.png
+  artifactKey: Guid(40f901bf977714a9d9c148dbd560bbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/soloMorado.png using Guid(40f901bf977714a9d9c148dbd560bbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768f8680531d0bccdb943ea252b13165') in 0.009626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/HugoIbarra/sprites/Recurso 14.png
+  artifactKey: Guid(3fe5c4500995f4a21a7ec2f139e26771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/Recurso 14.png using Guid(3fe5c4500995f4a21a7ec2f139e26771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108286b30948aeadbbd11be19b7af326') in 0.014025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/HugoIbarra/sprites/marcoAzul.png
+  artifactKey: Guid(c3b99d81fe80b447f82b57f6795ebd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/marcoAzul.png using Guid(c3b99d81fe80b447f82b57f6795ebd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9b13c09a3ae38ce6dd47761bd7f3fd') in 0.132933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/HugoIbarra/sprites/soloAzul.png
+  artifactKey: Guid(c5491d3acc1ec4f0ea19d60a9dd3c497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/soloAzul.png using Guid(c5491d3acc1ec4f0ea19d60a9dd3c497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243e4cd275c42e5d7f15256e88faf0c7') in 0.009438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HugoIbarra/sprites/flechaMorada izq.png
+  artifactKey: Guid(78e7aa81d00a74c9390d5b196468d581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/flechaMorada izq.png using Guid(78e7aa81d00a74c9390d5b196468d581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7415e578a05badcdd00e945cec7e2422') in 0.009723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/HugoIbarra/sprites/flechaRosa.png
+  artifactKey: Guid(5f075348ba75246119d3bdebfe265d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/flechaRosa.png using Guid(5f075348ba75246119d3bdebfe265d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2caf67c9c4b34d973ae2d71191e86bd') in 0.010817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/HugoIbarra/sprites/Instrucciones_1.png
+  artifactKey: Guid(27e93a9d2d38f4f7e8bdd2f3692b4555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/Instrucciones_1.png using Guid(27e93a9d2d38f4f7e8bdd2f3692b4555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54eacef68b53c32799fad527f3a7d62') in 0.044142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/HugoIbarra/sprites/Recurso 14_2.png
+  artifactKey: Guid(94c2c99f6fe1d48da963b0a16fb77990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/Recurso 14_2.png using Guid(94c2c99f6fe1d48da963b0a16fb77990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2851f1ae8abac0dcb031b23e9e71a195') in 0.011806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/HugoIbarra/sprites/flechaRosa izq.png
+  artifactKey: Guid(a76886ad7ffd04460b58ae1ef8dcb0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/flechaRosa izq.png using Guid(a76886ad7ffd04460b58ae1ef8dcb0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6107df1c43ca38d1d6e5977c1bcd76b4') in 0.008650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/HugoIbarra/sprites/Recurso 2.png
+  artifactKey: Guid(e7d2d4b12dafb4e7cabb52b978faa8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/Recurso 2.png using Guid(e7d2d4b12dafb4e7cabb52b978faa8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccac17348fb0f90728c0ca16395425e1') in 0.014336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/HugoIbarra/sprites/PantallaRosa.png
+  artifactKey: Guid(a6a513c49cdaf4fa584980c9e675c9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/PantallaRosa.png using Guid(a6a513c49cdaf4fa584980c9e675c9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99eface6a9f9cea4af25600732b73e2') in 0.026076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/HugoIbarra/sprites/Mesa de trabajo 1 copia 5.png
+  artifactKey: Guid(d5a4b335164894ce885902b9d23b6849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/Mesa de trabajo 1 copia 5.png using Guid(d5a4b335164894ce885902b9d23b6849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce207bdd417da189d899ad7fc03ab59') in 0.187250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.281970 seconds.
+  path: Assets/Common
+  artifactKey: Guid(0e4cc7a5069a4f34c9b8c0a7111590c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Common using Guid(0e4cc7a5069a4f34c9b8c0a7111590c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aecc9b441bac2df2eb7e749a0c49e1dd') in 0.005197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.375364 seconds.
+  path: Assets/Common/Resources
+  artifactKey: Guid(2007ecee13ddc4aa5935f1611a343f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Common/Resources using Guid(2007ecee13ddc4aa5935f1611a343f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa581924ad184c976acda65113bf1c7') in 0.005417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.071210 seconds.
+  path: Assets/Common/Resources/MessageBox.prefab
+  artifactKey: Guid(fe843a56d4bac4f79871a1dbed9d7168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Common/Resources/MessageBox.prefab using Guid(fe843a56d4bac4f79871a1dbed9d7168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946aa718ac387ab430779edeed54f187') in 0.015059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.533884 seconds.
+  path: Assets/HugoIbarra/sprites/tumbnails
+  artifactKey: Guid(f6762d337799547068aef81edcb13f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/tumbnails using Guid(f6762d337799547068aef81edcb13f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedf1f322a6443c12bee50f1aabc9a9f') in 0.005077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.074155 seconds.
+  path: Assets/HugoIbarra/sprites/tumbnails/PH.png
+  artifactKey: Guid(880cf5c5a6de34f1fb736e106b7d02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HugoIbarra/sprites/tumbnails/PH.png using Guid(880cf5c5a6de34f1fb736e106b7d02c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4558eb9840127a49b41012e1e34e80') in 0.045802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.997659 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(3535c999fba16d9438c05ad55806d913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(3535c999fba16d9438c05ad55806d913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f02eb1b776b70d799496d96ed8fa1f') in 0.001864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.077576 seconds.
+  path: Assets/Resources/VuforiaConfiguration.asset
+  artifactKey: Guid(564b39b512c48e54c8aed3c0ecb0f4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(564b39b512c48e54c8aed3c0ecb0f4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c804f805a9a90e8257d62da6f7613cf') in 0.006596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.948052 seconds.
+  path: Assets/SamplesResources
+  artifactKey: Guid(917c346746ceb4c8bb948408cc317298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplesResources using Guid(917c346746ceb4c8bb948408cc317298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358fb25c328c565df4338b811bbba6c3') in 0.005758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 102.961456 seconds.
+  path: Assets/Recursos/Image/tangram.png
+  artifactKey: Guid(5735da995910b5447a454774fd8c6889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Recursos/Image/tangram.png using Guid(5735da995910b5447a454774fd8c6889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17cc3e3042b9ba4d9f0014a77e2e4523') in 0.011187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.927109 seconds.
+  path: Assets/Recursos/Image/tangram.png
+  artifactKey: Guid(5735da995910b5447a454774fd8c6889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Recursos/Image/tangram.png using Guid(5735da995910b5447a454774fd8c6889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984725e007c7f166821e74a8c884feaa') in 0.008136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.261956 seconds.
+  path: Assets/Recursos/Image/tangram.png
+  artifactKey: Guid(5735da995910b5447a454774fd8c6889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Recursos/Image/tangram.png using Guid(5735da995910b5447a454774fd8c6889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22e68363636499bf0c9125c226331f7') in 0.005093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.183684 seconds.
+  path: Assets/Recursos/Image/tangram.png
+  artifactKey: Guid(5735da995910b5447a454774fd8c6889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Recursos/Image/tangram.png using Guid(5735da995910b5447a454774fd8c6889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544a2a2ccede28a688173465d72c91ca') in 0.011319 seconds 
